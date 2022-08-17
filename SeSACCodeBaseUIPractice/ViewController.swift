@@ -97,7 +97,7 @@ class ViewController: UIViewController {
         view.layer.borderWidth = 1
         view.layer.borderColor = UIColor.white.cgColor
         view.clipsToBounds = true
-        view.layer.cornerRadius = 50
+        view.layer.cornerRadius = 43
         return view
     }()
     
