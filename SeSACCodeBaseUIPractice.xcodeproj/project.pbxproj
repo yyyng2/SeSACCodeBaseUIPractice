@@ -14,6 +14,27 @@
 		1842495B28AC9ADB001EBE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1842495A28AC9ADB001EBE8D /* Assets.xcassets */; };
 		1842495E28AC9ADB001EBE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1842495C28AC9ADB001EBE8D /* LaunchScreen.storyboard */; };
 		1842496728AC9B0D001EBE8D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1842496628AC9B0D001EBE8D /* SnapKit */; };
+		189742DE28B01AD300CECB29 /* Newflix.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189742DD28B01AD300CECB29 /* Newflix.storyboard */; };
+		189742E028B01AE300CECB29 /* NewflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742DF28B01AE300CECB29 /* NewflixViewController.swift */; };
+		189742E328B01B3B00CECB29 /* NewflixBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742E228B01B3B00CECB29 /* NewflixBaseViewController.swift */; };
+		189742E628B01CA000CECB29 /* NewflixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742E528B01CA000CECB29 /* NewflixView.swift */; };
+		189742E828B01CC300CECB29 /* NewflixBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742E728B01CC300CECB29 /* NewflixBaseView.swift */; };
+		189742EB28B01E4D00CECB29 /* NewflixSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742EA28B01E4D00CECB29 /* NewflixSignViewController.swift */; };
+		189742ED28B01E5E00CECB29 /* NewflixSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742EC28B01E5E00CECB29 /* NewflixSignView.swift */; };
+		189742F028B01FD000CECB29 /* NewflixTopMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742EF28B01FD000CECB29 /* NewflixTopMenuButton.swift */; };
+		189742F228B02EEB00CECB29 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 189742F128B02EEB00CECB29 /* .gitignore */; };
+		189742F428B02F0E00CECB29 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742F328B02F0E00CECB29 /* APIKey.swift */; };
+		189742F628B02F5400CECB29 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742F528B02F5400CECB29 /* APIManager.swift */; };
+		189742FB28B0304F00CECB29 /* NewflixSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742FA28B0304F00CECB29 /* NewflixSearchViewController.swift */; };
+		189742FD28B0305900CECB29 /* NewflixHotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189742FC28B0305900CECB29 /* NewflixHotViewController.swift */; };
+		1897430228B030D100CECB29 /* NewflixTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897430128B030D100CECB29 /* NewflixTabBarController.swift */; };
+		1897430828B0408000CECB29 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1897430728B0408000CECB29 /* Alamofire */; };
+		1897430B28B0409200CECB29 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1897430A28B0409200CECB29 /* SwiftyJSON */; };
+		1897430D28B0414A00CECB29 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897430C28B0414A00CECB29 /* Constant.swift */; };
+		1897430F28B0518E00CECB29 /* NewflixShowPosterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897430E28B0518E00CECB29 /* NewflixShowPosterButton.swift */; };
+		1897431228B05D1E00CECB29 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897431128B05D1E00CECB29 /* UIViewController+Extension.swift */; };
+		1897431428B05DEE00CECB29 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897431328B05DEE00CECB29 /* ReusableViewProtocol.swift */; };
+		1897431628B061DD00CECB29 /* signTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897431528B061DD00CECB29 /* signTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +46,25 @@
 		1842495A28AC9ADB001EBE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1842495D28AC9ADB001EBE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1842495F28AC9ADB001EBE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189742DD28B01AD300CECB29 /* Newflix.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Newflix.storyboard; sourceTree = "<group>"; };
+		189742DF28B01AE300CECB29 /* NewflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixViewController.swift; sourceTree = "<group>"; };
+		189742E228B01B3B00CECB29 /* NewflixBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixBaseViewController.swift; sourceTree = "<group>"; };
+		189742E528B01CA000CECB29 /* NewflixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixView.swift; sourceTree = "<group>"; };
+		189742E728B01CC300CECB29 /* NewflixBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixBaseView.swift; sourceTree = "<group>"; };
+		189742EA28B01E4D00CECB29 /* NewflixSignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixSignViewController.swift; sourceTree = "<group>"; };
+		189742EC28B01E5E00CECB29 /* NewflixSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixSignView.swift; sourceTree = "<group>"; };
+		189742EF28B01FD000CECB29 /* NewflixTopMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixTopMenuButton.swift; sourceTree = "<group>"; };
+		189742F128B02EEB00CECB29 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		189742F328B02F0E00CECB29 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		189742F528B02F5400CECB29 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		189742FA28B0304F00CECB29 /* NewflixSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixSearchViewController.swift; sourceTree = "<group>"; };
+		189742FC28B0305900CECB29 /* NewflixHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixHotViewController.swift; sourceTree = "<group>"; };
+		1897430128B030D100CECB29 /* NewflixTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixTabBarController.swift; sourceTree = "<group>"; };
+		1897430C28B0414A00CECB29 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1897430E28B0518E00CECB29 /* NewflixShowPosterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewflixShowPosterButton.swift; sourceTree = "<group>"; };
+		1897431128B05D1E00CECB29 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		1897431328B05DEE00CECB29 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		1897431528B061DD00CECB29 /* signTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1897430B28B0409200CECB29 /* SwiftyJSON in Frameworks */,
+				1897430828B0408000CECB29 /* Alamofire in Frameworks */,
 				1842496728AC9B0D001EBE8D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,6 +84,7 @@
 		1842494528AC9AD9001EBE8D = {
 			isa = PBXGroup;
 			children = (
+				189742F128B02EEB00CECB29 /* .gitignore */,
 				1842495028AC9AD9001EBE8D /* SeSACCodeBaseUIPractice */,
 				1842494F28AC9AD9001EBE8D /* Products */,
 			);
@@ -58,15 +101,97 @@
 		1842495028AC9AD9001EBE8D /* SeSACCodeBaseUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				1897431028B05D0200CECB29 /* Extension */,
+				189742FE28B0305F00CECB29 /* NewflixTabBar */,
+				189742F928B0302C00CECB29 /* NewflixSearch */,
+				189742F828B0301000CECB29 /* NewflixHot */,
+				189742E928B01E2B00CECB29 /* NewflixSign */,
+				189742E428B01C8A00CECB29 /* NewflixMain */,
+				189742E128B01AEC00CECB29 /* Utility */,
 				1842495128AC9AD9001EBE8D /* AppDelegate.swift */,
 				1842495328AC9AD9001EBE8D /* SceneDelegate.swift */,
 				1842495528AC9AD9001EBE8D /* ViewController.swift */,
+				189742F328B02F0E00CECB29 /* APIKey.swift */,
+				189742F528B02F5400CECB29 /* APIManager.swift */,
+				1897430C28B0414A00CECB29 /* Constant.swift */,
 				1842495728AC9AD9001EBE8D /* Main.storyboard */,
 				1842495A28AC9ADB001EBE8D /* Assets.xcassets */,
 				1842495C28AC9ADB001EBE8D /* LaunchScreen.storyboard */,
 				1842495F28AC9ADB001EBE8D /* Info.plist */,
 			);
 			path = SeSACCodeBaseUIPractice;
+			sourceTree = "<group>";
+		};
+		189742E128B01AEC00CECB29 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				189742EE28B01FB000CECB29 /* CustomView */,
+				189742E728B01CC300CECB29 /* NewflixBaseView.swift */,
+				189742E228B01B3B00CECB29 /* NewflixBaseViewController.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		189742E428B01C8A00CECB29 /* NewflixMain */ = {
+			isa = PBXGroup;
+			children = (
+				189742DD28B01AD300CECB29 /* Newflix.storyboard */,
+				189742E528B01CA000CECB29 /* NewflixView.swift */,
+				189742DF28B01AE300CECB29 /* NewflixViewController.swift */,
+			);
+			path = NewflixMain;
+			sourceTree = "<group>";
+		};
+		189742E928B01E2B00CECB29 /* NewflixSign */ = {
+			isa = PBXGroup;
+			children = (
+				189742EC28B01E5E00CECB29 /* NewflixSignView.swift */,
+				189742EA28B01E4D00CECB29 /* NewflixSignViewController.swift */,
+			);
+			path = NewflixSign;
+			sourceTree = "<group>";
+		};
+		189742EE28B01FB000CECB29 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				189742EF28B01FD000CECB29 /* NewflixTopMenuButton.swift */,
+				1897430E28B0518E00CECB29 /* NewflixShowPosterButton.swift */,
+				1897431528B061DD00CECB29 /* signTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		189742F828B0301000CECB29 /* NewflixHot */ = {
+			isa = PBXGroup;
+			children = (
+				189742FC28B0305900CECB29 /* NewflixHotViewController.swift */,
+			);
+			path = NewflixHot;
+			sourceTree = "<group>";
+		};
+		189742F928B0302C00CECB29 /* NewflixSearch */ = {
+			isa = PBXGroup;
+			children = (
+				189742FA28B0304F00CECB29 /* NewflixSearchViewController.swift */,
+			);
+			path = NewflixSearch;
+			sourceTree = "<group>";
+		};
+		189742FE28B0305F00CECB29 /* NewflixTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1897430128B030D100CECB29 /* NewflixTabBarController.swift */,
+			);
+			path = NewflixTabBar;
+			sourceTree = "<group>";
+		};
+		1897431028B05D0200CECB29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1897431128B05D1E00CECB29 /* UIViewController+Extension.swift */,
+				1897431328B05DEE00CECB29 /* ReusableViewProtocol.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +212,8 @@
 			name = SeSACCodeBaseUIPractice;
 			packageProductDependencies = (
 				1842496628AC9B0D001EBE8D /* SnapKit */,
+				1897430728B0408000CECB29 /* Alamofire */,
+				1897430A28B0409200CECB29 /* SwiftyJSON */,
 			);
 			productName = SeSACCodeBaseUIPractice;
 			productReference = 1842494E28AC9AD9001EBE8D /* SeSACCodeBaseUIPractice.app */;
@@ -118,6 +245,8 @@
 			mainGroup = 1842494528AC9AD9001EBE8D;
 			packageReferences = (
 				1842496528AC9B0D001EBE8D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1897430628B0408000CECB29 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1897430928B0409200CECB29 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 1842494F28AC9AD9001EBE8D /* Products */;
 			projectDirPath = "";
@@ -133,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189742F228B02EEB00CECB29 /* .gitignore in Resources */,
 				1842495E28AC9ADB001EBE8D /* LaunchScreen.storyboard in Resources */,
 				1842495B28AC9ADB001EBE8D /* Assets.xcassets in Resources */,
+				189742DE28B01AD300CECB29 /* Newflix.storyboard in Resources */,
 				1842495928AC9AD9001EBE8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +277,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1897431428B05DEE00CECB29 /* ReusableViewProtocol.swift in Sources */,
+				1897431228B05D1E00CECB29 /* UIViewController+Extension.swift in Sources */,
+				189742F628B02F5400CECB29 /* APIManager.swift in Sources */,
+				189742E828B01CC300CECB29 /* NewflixBaseView.swift in Sources */,
+				1897430F28B0518E00CECB29 /* NewflixShowPosterButton.swift in Sources */,
 				1842495628AC9AD9001EBE8D /* ViewController.swift in Sources */,
+				1897430D28B0414A00CECB29 /* Constant.swift in Sources */,
+				189742E328B01B3B00CECB29 /* NewflixBaseViewController.swift in Sources */,
+				1897430228B030D100CECB29 /* NewflixTabBarController.swift in Sources */,
 				1842495228AC9AD9001EBE8D /* AppDelegate.swift in Sources */,
+				189742E028B01AE300CECB29 /* NewflixViewController.swift in Sources */,
+				189742E628B01CA000CECB29 /* NewflixView.swift in Sources */,
+				1897431628B061DD00CECB29 /* signTextField.swift in Sources */,
+				189742F428B02F0E00CECB29 /* APIKey.swift in Sources */,
+				189742F028B01FD000CECB29 /* NewflixTopMenuButton.swift in Sources */,
+				189742ED28B01E5E00CECB29 /* NewflixSignView.swift in Sources */,
+				189742FB28B0304F00CECB29 /* NewflixSearchViewController.swift in Sources */,
 				1842495428AC9AD9001EBE8D /* SceneDelegate.swift in Sources */,
+				189742FD28B0305900CECB29 /* NewflixHotViewController.swift in Sources */,
+				189742EB28B01E4D00CECB29 /* NewflixSignViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +524,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		1897430628B0408000CECB29 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		1897430928B0409200CECB29 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -383,6 +547,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1842496528AC9B0D001EBE8D /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		1897430728B0408000CECB29 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1897430628B0408000CECB29 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1897430A28B0409200CECB29 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1897430928B0409200CECB29 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -101,8 +101,8 @@ class ViewController: UIViewController {
         return view
     }()
     
-    let nicknameTextField: UITextField = {
-        let text = UITextField()
+    let nicknameLabel: UILabel = {
+        let text = UILabel()
         text.text = "닉네임"
         text.textColor = .white
         text.font = .boldSystemFont(ofSize: 20)
@@ -110,8 +110,8 @@ class ViewController: UIViewController {
         return text
     }()
     
-    let statusTextField: UITextField = {
-        let text = UITextField()
+    let statusLabel: UILabel = {
+        let text = UILabel()
         text.text = "상태 메세지"
         text.textColor = .white
         text.font = .systemFont(ofSize: 16)
@@ -122,7 +122,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemMint
-        [xButton, chatButton, settingButton, profileButton, kakaoStoryButton, grayLineView, profileImageView, nicknameTextField, statusTextField].forEach {
+        [xButton, chatButton, settingButton, profileButton, kakaoStoryButton, grayLineView, profileImageView, nicknameLabel, statusLabel].forEach {
             view.addSubview($0)
         }
         xButton.snp.makeConstraints { make in
@@ -166,15 +166,15 @@ class ViewController: UIViewController {
             make.width.equalTo(100)
             make.height.equalTo(100)
             make.centerX.equalTo(view)
-            make.bottom.equalTo(nicknameTextField.snp.top).offset(-10)
+            make.bottom.equalTo(nicknameLabel.snp.top).offset(-10)
         }
-        nicknameTextField.snp.makeConstraints { make in
+        nicknameLabel.snp.makeConstraints { make in
             make.width.equalTo(UIScreen.main.bounds.width/1.5)
             make.height.equalTo(40)
             make.centerX.equalTo(view)
-            make.bottom.equalTo(statusTextField.snp.top).offset(0)
+            make.bottom.equalTo(statusLabel.snp.top).offset(0)
         }
-        statusTextField.snp.makeConstraints { make in
+        statusLabel.snp.makeConstraints { make in
             make.width.equalTo(UIScreen.main.bounds.width/1.5)
             make.height.equalTo(40)
             make.centerX.equalTo(view)
