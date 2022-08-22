@@ -184,7 +184,7 @@ class NewflixView: NewflixBaseView{
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.backgroundColor = .clear
+        self.backgroundColor = .black
         //백그라운드컬러에 이미지 넣을 수 있음
         //self.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
         
@@ -245,10 +245,12 @@ class NewflixView: NewflixBaseView{
         posterImage.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.centerX.equalTo(self)
+            make.width.equalToSuperview()
             make.height.equalTo(self).multipliedBy(0.7)
         }
         backgroundImage.snp.makeConstraints { make in
             make.top.equalToSuperview()
+            make.centerX.equalTo(self)
             make.width.equalToSuperview()
             make.height.equalTo(self).multipliedBy(0.7)
         }

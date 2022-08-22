@@ -20,8 +20,10 @@ extension UIViewController{
         guard let vc = sb.instantiateViewController(withIdentifier: T.reuseIdentifier) as? T else {return}
         switch transitionStyle{
         case .present:
+//            rootViewController?.present(vc, animated: true)
             self.present(vc, animated: true)
         case .push:
+//            rootViewController?.navigationController?.pushViewController(vc, animated: true)
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

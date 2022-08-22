@@ -13,6 +13,7 @@ class NewflixBaseView: UIView {
         super.init(frame: frame)
         configure()
         setConstraints()
+        backgroundColor = .black
     }
     
     required init?(coder: NSCoder) {

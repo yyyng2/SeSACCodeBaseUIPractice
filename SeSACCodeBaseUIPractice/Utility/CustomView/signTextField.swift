@@ -22,5 +22,6 @@ class signTextField: UITextField{
         layer.cornerRadius = 8
         textAlignment = .center
         borderStyle = .roundedRect
+        textColor = .white
     }
 }

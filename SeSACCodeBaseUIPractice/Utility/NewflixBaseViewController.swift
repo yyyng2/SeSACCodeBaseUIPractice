@@ -15,6 +15,7 @@ class NewflixBaseViewController: UIViewController {
         configure()
         
         
+        
     }
     
     func configure() {}
@@ -22,7 +23,7 @@ class NewflixBaseViewController: UIViewController {
     func showAlert(title: String, message: String){
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Okay", style: .cancel))
-        alert.present(self, animated: true)
+        self.present(alert, animated: true)
     }
   
 }

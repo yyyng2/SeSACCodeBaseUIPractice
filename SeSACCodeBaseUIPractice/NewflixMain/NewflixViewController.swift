@@ -18,11 +18,18 @@ class NewflixViewController: NewflixBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+       
+    }
+    
+    override func configure() {
         mainView.signButton.addTarget(self, action: #selector(signButtonTapped), for: .touchUpInside)
     }
     
     @objc func signButtonTapped(){
-        transitionView(storyboard: "Newflix", viewCotroller: NewflixSignViewController(), transitionStyle: .present)
+        print("tap")
+        let vc = NewflixSignViewController()
+        present(vc, animated: true)
+//        dismiss(animated: true)
     }
 
    
